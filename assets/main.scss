@@ -1,0 +1,42 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+#logo {
+  width: 60%;
+}
+
+.home {
+  .postTeaser {
+    padding-bottom: 25px;
+    border-bottom: 1px solid gray;
+  }
+  .postTeaser > * {
+    display: none;
+  }
+
+  .postTeaser p:first-child {
+    display: block;
+  }
+
+  .postTitle {
+    margin-bottom: 0;
+  }
+  // to do, figure out what i want with this, like idea, not execution
+  .viewMore {
+    text-align: right;
+    font-size: 14px;
+  }
+}
+
+.site-footer {
+  padding:0;
+  background: #399edb;
+  color: #fff;
+  padding-top: 5px;
+  * {
+  color: #fff;
+  }
+}

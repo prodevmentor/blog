@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="home">
+  <h1> Latest Ramblings </h1>
+
+  {% for post in site.posts %}
+    <section class="post">
+      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+      <h2 class='postTitle'>
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </h2>
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+      <div class="postTeaser">
+      {{ post.content }}
+      <p class="viewMore"> ...
+        <a href="{{ post.url | relative_url }}">Read more</a>
+      </p>
+      </div>
+    </section>
+  {% endfor %}
+</div>
