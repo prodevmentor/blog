@@ -25,4 +25,4 @@ This blog is for you if want to:
 
 When not working, I like to ski, pet my dog, cook, box at my local gym and workout. My favorite activity of all is hanging out with my wife everyday and night. You'll often find me in Denver drinking way too much coffee, being far too excited about silly things and being a "chatty elephant" as my friend Mark K. would  say.
 
-This blog is hosted on Amazon S3 and built with the robust DOS safe (hopefully) static engine service; Jekyll. If you want to say hello, complain or mail me coffee products, please drop a line below.
+This blog is hosted on Google Cloud Storage (see <a href="https://little418.com/2015/07/jekyll-google-cloud-storage.html" target="_blank">this post</a> about that) and built with the robust DOS safe (hopefully) static engine service; Jekyll. If you want to say hello, complain or mail me coffee products, please drop a line below.
