@@ -26,7 +26,7 @@ This is probably the most important step. You have two goals as a interviewer: s
 
 Selling starts with a good story: why are you the right team/company/technology for the candidate? What are the pros and cons of working with you guys? Talk about your culture and share your accomplishments. Show them your rad office space, talk about the mad ping pong skills you have and how cool it is to work with you.
 
-Most of all, talk about the why. Why are you guys making the biggest impact? What are you doing? When I interviewed at Unitedhealth Group, my soon to be manager got me excited about helping millions of people find and get affordable health insurance. You're making a real impact on the daily lives of the customers you serve. That's what you need to understand and communicate.
+Most of all, talk about the why. Why are you guys making the biggest impact? What are you doing? When I interviewed at this big insurance company, my soon to be manager got me excited about helping millions of people find and get affordable health insurance. You're making a real impact on the daily lives of the customers you serve. That's what you need to understand and communicate.
 
 # The interview questions
 
