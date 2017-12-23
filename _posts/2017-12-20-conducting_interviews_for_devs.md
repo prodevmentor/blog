@@ -66,7 +66,7 @@ This is key to the position of a senior. Junior developers should know things li
 For understanding their technical knowledge, I prefer the machine gun approach. That is, I want to explore all topics in the related field. I often hire web developers so my machine gun belt looks like:
 * Explain from when you type "Key Lime pie" into Google and click search - what happens?
   * What I'm looking for:
-    * Can they talk about DNS? Routing? Servers? Load balancing? Networking? HTTP? TCP/I? How deep is their knowledge in how the internet works?
+    * Can they talk about DNS? Routing? Servers? Load balancing? Networking? HTTP? TCP/IP? How deep is their knowledge in how the internet works?
 * Explain how the DOM works in the browser
   * What I'm looking for:
     * Talk about DOM trees, Nodes and Leafs, how does the browser do async calls? How does it evaluate scripts, css, and tags?
