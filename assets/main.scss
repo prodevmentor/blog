@@ -8,20 +8,25 @@
   width: 60%;
 }
 
+.postTeaser > * {
+  display: none;
+}
+
+.postTeaser p:first-child {
+  display: block;
+}
+
+.post {
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid gray;
+}
+
+.post:last-child {
+  border-bottom: 0;
+}
+
 .home {
-  .postTeaser {
-    padding-bottom: 25px;
-    border-bottom: 1px solid gray;
-  }
-
-  .postTeaser > * {
-    display: none;
-  }
-
-  .postTeaser p:first-child {
-    display: block;
-  }
-
   .postTitle {
     margin-bottom: 0;
   }
@@ -43,7 +48,7 @@
 }
 
 html, body {
- height: 100%; 
+ height: 100%;
 }
 
 body {
