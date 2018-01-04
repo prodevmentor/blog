@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Developer Happiness: Gratitude as an attitude"
-date:   2018-01-04
+date:   2018-01-03
 categories: softskills developer happiness gratitude
 ---
 
@@ -55,3 +55,5 @@ How do you feel when you express or receive gratitude at work?
 2) [In Praise of Gratitude, Harvard](https://www.health.harvard.edu/newsletter_article/in-praise-of-gratitude)
 
 3) [7 Scientifically Proven Benefits Of Gratitude That Will Motivate You To Give Thanks Year-Round](https://www.forbes.com/sites/amymorin/2014/11/23/7-scientifically-proven-benefits-of-gratitude-that-will-motivate-you-to-give-thanks-year-round/#498ddbba183c)
+
+_Blog post inspired by the work done by my coach over at [Fit Soldiers](http://fitsoldiers.com/)_
