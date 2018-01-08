@@ -29,3 +29,19 @@ Its confusing. Actions, reducers, state, store, dispatch, blah blah blah... It c
 # Show me a picture! 
 
 # Show me code! 
+
+----------------------------------------------
+
+# Redux Meets React
+
+Redux is a useful tool for global state management within the context of React. Redux can be used for apps other then React
+but the focus of this article is specifically about React. 
+
+# Redux State vs Component State vs Props
+
+State is an overloaded term. It can mean Redux state, in React it often means component state. Lets clear things up
+
+## Redux State
+This is typically Global State. 
+
+##
