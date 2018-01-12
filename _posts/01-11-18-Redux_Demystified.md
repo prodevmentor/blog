@@ -2,14 +2,14 @@
 layout: post
 title:  "Redux Demystified"
 date:   2018-01-11
-categories: react javascript es6 redux
+categories: react javascript es6 Redux
 ---
 
-Today we're going to dive into a technical topic, how Redux works and how you can use it work with the application data within your React app.
+Today we're going to look at Redux. Redux is a popular tool to use with React. We're going to explore the topic and talk about why you should consider using it.
 
 # What is Redux?
 
-Redux is all about state (data) management. It takes the place of doing a traditional MVC approach where data is stored in instances of models and replaces that data storage with a global storage location. Typically stored on Window or top, it can exist in local storage.
+Redux is all about state (data) management. It takes the place of doing a traditional MVC approach where data is stored in instances of models and replaces that data storage with a global storage location. Typically stored on Window or top. The data can be stored in local storage or in a cookie.
 
 # Why Redux?
 
@@ -19,15 +19,15 @@ MVC is great, but for storing data it can be very difficult to reason about the 
 
 Redux at its core is a pub/sub model. Purely event driven. A component gets its state from the Redux Store. The component takes an action, like clicking a button which triggers an action to fetch data. The action gets data from the API, then notifies the system it's done. Once that occurs, Redux check's it's list of reducers to see if there is something built to handle that action response. If there is a reducer to handle that response: it handles it then possibly modifies state.
 
-The state change (if there is one), triggers Redux to update all relevant connected components, which force a redraw in most cases, thus refreshing the screen.
+The state change (if there is one) triggers Redux to update all relevant connected components, which will force a redraw in most cases, thus refreshing the screen.
 
-![Fancy picture of the redux model](/assets/img/jan2017_redux_pattern.png)
+![Fancy picture of the Redux model](/assets/img/jan2017_redux_pattern.png)
 
 # What's a reducer?
 
 When a reducer is invoked, through dispatch, it receives a message stating what event is occurring, what the new proposed state could be and the current application state.
 
-The reducer is a standard API for mutating the state of the redux store. The code is pretty simple, it looks at the incoming action type, the proposed data and the current data then makes a decision about what to store.
+The reducer is a standard API for mutating the state of the Redux store. The code is pretty simple, it looks at the incoming action type, the proposed data and the current data then makes a decision about what to store.
 
 ```javascript
   function myReducer(state = initalState, action) {
@@ -77,7 +77,7 @@ Actions can be pure functions, but they could also call out to an API service.
   };
 ```
 
-There are many styles of writing actions, but I always write mine in the style of being called in Context thus having Dispatch provided. There are other ways of doing it but this wraps the action and firer together, which I like a lot. Axois is a 3rd party library I use to make API calls.
+There are many styles of writing actions, but I always write mine in the style of being called in Context thus having Dispatch provided. There are other ways of doing it but this wraps the action and trigger together, which I like a lot. Axois is a 3rd party library I use to make API calls.
 
 # Dispatch, Store, and Connect?
 
@@ -85,7 +85,7 @@ There are many styles of writing actions, but I always write mine in the style o
 Let's start with Store. The store is where all your state is stored. It has a restricted API, but you can change the "state" or "data" when you use a reducer.
 
 ## Dispatch
-Dispatch is pub/sub, it's the messaging queue. It's the mechanism that you let Redux know something is happening. Oh, I'm getting data! Oh, I got an error! It's part of the Redux API.
+Dispatch is something like pub/sub; it's the messaging queue. It's the mechanism that you let Redux know something is happening. Oh, I'm getting data! Oh, I got an error! It's part of the Redux API. It's the pipeline in which things like reducers are called.
 
 ## Connect
 Connect is the method of binding React components to the Store. Basically, you use something like:
@@ -98,11 +98,11 @@ Connect is the method of binding React components to the Store. Basically, you u
   export default connect(mapStateToProps)(MyClassName)
 ```
 
-This basically takes the state of the key 'notification' from redux and shoves the data into the component. Possibly forcing a redraw (if it changes the props or state).
+This basically takes the state of the key 'notification' from Redux and shoves the data into the component. Possibly forcing a redraw (if it changes the props or state).
 
 # Can I access the state without connect?
 
-Yes, you can. You can read the state, but you cannot modify the data without a Reducer or Javascript hacking. The read-only way is to directly query the store:
+Yes, you can. You can read the state, but you cannot modify the data without a Reducer or javascript hacking. The read-only way is to directly query the store:
 
 ```javascript
   store.getState(); // returns the full store as a JSON object
