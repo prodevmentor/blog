@@ -15,23 +15,23 @@ Retros are typically, sad face, happy face and netural face. Some places use plu
 
 # The 5 questions you need to ask at every retro
 
-The first question is "What do we need to stop doing?". This is always followed by an example of behavior we want to change: 
+The *first* question is "What do we need to stop doing?". This is always followed by an example of behavior we want to change: 
 * Stop coming to standup late
 * Stop committing code without tests
 * Stop yelling when you're angry
 
-The second question is "What do we need to start doing?". Such as:
+The *second* question is "What do we need to start doing?". Such as:
 * Start code review by checking out the branch locally
 * Coming to meetings on time 
 * Asking for help when you're stuck
 
-The third question is "What do we need to continue doing?". This is criticual for the team, it helps recogonize when the team is doing something well that someone thinks should continue occuring. 
+The *third* question is "What do we need to continue doing?". This is criticual for the team, it helps recogonize when the team is doing something well that someone thinks should continue occuring. 
 * Continue pairing and offering to pair
 * Continue setting agendas for meetings
 
-The forth question is "Who do you want to recognize on the team?". This is powerful because it shifts the focus from "me" to "us". It helps people see the project from the point of view of how others contributed and were apart of the success of the team. 
+The *forth* question is "Who do you want to recognize on the team?". This is powerful because it shifts the focus from "me" to "us". It helps people see the project from the point of view of how others contributed and were apart of the success of the team. 
 
-The last question is directed to be received by management, this should be able to be communicated to management to give them insight on how to improve things that are outside the locus of the team's control. "What feedback do you have to management?"
+The *fifth* question is directed to be received by management, this should be able to be communicated to management to give them insight on how to improve things that are outside the locus of the team's control. "What feedback do you have to management?"
 * We need better IT support because the firewall is blocking us from installing new modules
 * We need the business to agree to a date
 
