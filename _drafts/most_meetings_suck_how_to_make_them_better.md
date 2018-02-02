@@ -49,4 +49,4 @@ When you're floating down the river, you want to watch out for rocks, logs and w
 
 The river guide can be a developer, project manager or any person really. They have a simple job: set the agenda, set time boxes and push people who abuse the time boxes. In our community forums developers sign up for a 3 week commitment to run the meetings and contribute.
 
-What tips and ticks have you found to make your meetings more effective?
+What tips and tricks have you found to make your meetings more effective?
