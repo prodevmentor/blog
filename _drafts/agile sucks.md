@@ -47,11 +47,15 @@ Want to change how we conduct status meetings? Nope. This is the way we do it, b
 
 When was the last time you, the developer, got to talk to the customer? I don't mean a business analyist. I mean the person in marketing or product that says "We need this product to do xyz". Thats the person who needs to be bought in, thats the person who needs to understand the agile process. Thats the person you need to be getting as much feedback as quickly as possible.
 
-This is who your 'real' client is, not your manager or boss, but these people. Who is paying your group to build stuff? Who is asking for this stuff? Can they explain why they need it, justify it to you? Can they explain it so it makes sense to you? Can you  
+This is who your 'real' client is, not your manager or boss, but these people. Who is paying your group to build stuff? Who is asking for this stuff? Can they explain why they need it, justify it to you? Can they explain it so it makes sense to you? Can you poke holes in their ideas? Ask about edge cases? 
 
-## Management 
+These are the most important people to makesure you're communicating frequently, clearly and effectively to. Regaurdless of management, these are the people you're truly beholden to. 
+
+## Unsupportive Management 
 
 To often teams and many companies get stuck in their way of doing things. When new people come onboard and aren't familar with the process it can be hetic to get up to speed. Not only that, but often time teams have norms and standards around how they conduct themselves and they don't want to get better. 
+
+Management often only cares about quickly delivering a product so they can meet their 'goals', 'objectives' or 'wins'. Management wants to stastify their stakeholders needs at the cost of quailty, at the cost of scalability. Why is it so often that developers come into a new orginization and there are so many fires to put out? Management wants to solve for today's problems and defer tomorrow's problems. The trouble is when deferring archecture, and system design for short term wins. "Short term wins" are always "long term", the "temporary" project always becomes "permanate" production instance that needs "maintence" or just some "tweaking". 
 
 # What we can do to fix Agile
 
