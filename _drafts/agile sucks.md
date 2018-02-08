@@ -60,6 +60,22 @@ Management often only cares about quickly delivering a product so they can meet 
 # What we can do to fix Agile
 
 # Empowered Teams
+
+Teams should be accountable for the time they use but they must also be able to use the time given to make the choices that make sense for the given problem constraints: time, energy, effort, and budget. 
+
+Teams should be empowered to choose scrum, xp, or kanban, or their own magic bean method. Teams should work with others and play nicely. Teams should consider organizational strengths and weaknesses when chosing a new technology stack. 
+
+The decisions should be left up to the team unless the team chooses to delegate or defer. Decisions such as:
+
+* What technology makes sense?
+* What process do we use?
+* What tooling and frameworks do we use?
+* How do we conduct testing?
+* How do we get customer feedback?
+* When will we deliver X, how will we deliver x?
+
 # Engaged Customers
 # The team has support 
 # Using better tools
+
+Agile isn't really broken. It's the companies that don't understand what its truly about. It's less about the process, the people in their ivory towers and more about the interactions of the team members with the customer to deliver working software. 
