@@ -86,10 +86,18 @@ Customers need to understand how you commit to releasing the code, how you gathe
 
 Management and leaders, ensure the team has good leaders. Ensure the team has the equipment, tooling and processes defined that they need to get their jobs done. Don't bore them with hours of irrelivant meetings or details they don't actually need to know to do their jobs. 
 
-Hold back on critisim and act like a coach. Instruct, guide, direct but never dicate. Ensure the team has your support, if the customer is bashing the team, defend them, acknowledge the concern and help the team improve with their buy in to the process. 
+Hold back on critisim and act like a coach. Instruct, guide, direct but never dicate from your ivory tower. Ensure the team has your support, if the customer is bashing the team, defend them, acknowledge the concern and help the team improve with their buy in to the process. 
 
 Help the team eliminate ceremonies or meetings that aren't useful or helpful. 
 
 ## Use a simpler process
+
+XP, Scrum, waterfall, scalable agile, and others are all complex machines to define the work and get the work done. The trouble is often times you spend atleast 1 to 2 days per iteration to get the developers to do this work for them to actually do the work of writing the software. This is wasted time. 
+
+I personally believe and prefer Kanban. Anyone can add a story to the backlog, the team lead and product owner manages the backlog, ensuring that it has enough details to be completed. The developer picks up the story from the "ready" column then moves it through completion: doing the work, testing it, getting QA approval and finally get client approval. 
+
+The developer is a major part of the process, they're not just a dumb brick layer but a critical path to getting the software done correctly. The trouble with this is the developer actually has to learn how to communicate and talk to people effectively. Which can be a big challenge for some people. The result however is the team has more energy to focus on the work vs focusing on the process of creating the work to do the real work. 
+
+# Closing thoughts
 
 Agile isn't really broken. It's the companies that don't understand what its truly about. It's less about the process, the people in their ivory towers and more about the interactions of the team members with the customer to deliver working software. 
