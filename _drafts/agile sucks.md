@@ -59,7 +59,7 @@ Management often only cares about quickly delivering a product so they can meet 
 
 # What we can do to fix Agile
 
-## Empowered Teams
+## Empower Teams
 
 Teams should be accountable for the time they use but they must also be able to use the time given to make the choices that make sense for the given problem constraints: time, energy, effort, and budget. 
 
@@ -74,7 +74,7 @@ The decisions should be left up to the team unless the team chooses to delegate 
 * How do we get customer feedback?
 * When will we deliver X, how will we deliver x?
 
-## Engaged Customers
+## Engage Customers
 
 Customers, clients and stakeholders need to be engaged and bought into the process. We can't have clients running around thinking they need to shove requirements at us over the waterfall. We need our customers bought into the agile process. We need them on the phone or in the building, or atleast a screen hero away from communication. 
 
@@ -82,7 +82,14 @@ Delivering is apart of engaging your customer. It's important to deliver as earl
 
 Customers need to understand how you commit to releasing the code, how you gather and accept their feedback. They need to know what you're working on, what the challenges are and what the blockers are that they can resolve. What are the ideas or concerns you have that they don't know about? This is why middlemen such as business analysits are a terrible idea because they get in the way of effective client to developer communication
 
-## The team has support 
+## Support your team
+
+Management and leaders, ensure the team has good leaders. Ensure the team has the equipment, tooling and processes defined that they need to get their jobs done. Don't bore them with hours of irrelivant meetings or details they don't actually need to know to do their jobs. 
+
+Hold back on critisim and act like a coach. Instruct, guide, direct but never dicate. Ensure the team has your support, if the customer is bashing the team, defend them, acknowledge the concern and help the team improve with their buy in to the process. 
+
+Help the team eliminate ceremonies or meetings that aren't useful or helpful. 
+
 ## Use a simpler process
 
 Agile isn't really broken. It's the companies that don't understand what its truly about. It's less about the process, the people in their ivory towers and more about the interactions of the team members with the customer to deliver working software. 
