@@ -59,7 +59,7 @@ Management often only cares about quickly delivering a product so they can meet 
 
 # What we can do to fix Agile
 
-# Empowered Teams
+## Empowered Teams
 
 Teams should be accountable for the time they use but they must also be able to use the time given to make the choices that make sense for the given problem constraints: time, energy, effort, and budget. 
 
@@ -74,8 +74,15 @@ The decisions should be left up to the team unless the team chooses to delegate 
 * How do we get customer feedback?
 * When will we deliver X, how will we deliver x?
 
-# Engaged Customers
-# The team has support 
-# Using better tools
+## Engaged Customers
+
+Customers, clients and stakeholders need to be engaged and bought into the process. We can't have clients running around thinking they need to shove requirements at us over the waterfall. We need our customers bought into the agile process. We need them on the phone or in the building, or atleast a screen hero away from communication. 
+
+Delivering is apart of engaging your customer. It's important to deliver as early as possible the smallest amount. Often I start at the login page then iterate on functionaility from there. Delivery isn't "we put it in the dev environment, there it is!", delivery is the client being able to interact and USE the product from the start. If they can't press buttons and move around, then you haven't delivered ANYTHING. 
+
+Customers need to understand how you commit to releasing the code, how you gather and accept their feedback. They need to know what you're working on, what the challenges are and what the blockers are that they can resolve. What are the ideas or concerns you have that they don't know about? This is why middlemen such as business analysits are a terrible idea because they get in the way of effective client to developer communication
+
+## The team has support 
+## Use a simpler process
 
 Agile isn't really broken. It's the companies that don't understand what its truly about. It's less about the process, the people in their ivory towers and more about the interactions of the team members with the customer to deliver working software. 
