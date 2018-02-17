@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Being so good they can't ignore you"
+title:  "Being So Good They Can't Ignore You"
 date:   2018-02-04
 categories: books reviews
 ---
 
-Today, I just finished the book, "So good they can't ignore you" by Cal Newport. I listened through Audible and I have to say it's extremely remarkable in terms of how it affects my career thoughts.
+Today, I just finished the book, __So Good They Can't Ignore You__ by Cal Newport. I listened through Audible and I have to say it's extremely remarkable in terms of how it affects my career thoughts.
 
 # Following your passion is terrible advice
 
