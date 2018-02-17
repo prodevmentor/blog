@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Most meetings suck: How to re-factor team meetings"
-date:   2018-02-05
+date:   2018-02-16
 categories: meetings time-management rivers river-guide
 ---
 
@@ -23,7 +23,7 @@ Recently we had a developer's forum meeting to discuss our UI library, I was the
 
 I started by defining the agenda in a common format:
 
-1. Who's our note taker? I ask up front, first ask for commitment from one person to type and post notes to Slack. If nobody volunteers, I pick somebody at random. Once we have our note taker assigned, I say start typing!
+1. Who's our note taker? I ask up front, first ask for commitment from one person to type and post notes to Slack. If nobody volunteers, I pick somebody at random. Once we have our note taker assigned, I tell them to start typing!
 
 2. I'll read off the proposed list of topics to discuss then I'll write them on the white board.
 
@@ -33,7 +33,9 @@ I started by defining the agenda in a common format:
 
 # The river guide steers clear of obstacles
 
-When you're floating down the river, you want to watch out for rocks, logs and waterfalls. If the river guide is experienced, they'll know the spots to watch out for. In meetings in much tougher, to combat the unwanted rocks and land mines in our meetings the river guide employs a few tactics to prevent issues from popping up.
+When you're floating down the river, you want to watch out for rocks, logs and waterfalls. If the river guide is experienced, they'll know the spots to watch out for.
+
+In meetings, it’s much tougher to combat the unwanted rocks and land mines even if you’re experienced. In our meetings, the river guide employs a few tactics to prevent issues from popping up.
 
 1. Time boxing each topic. With an agreed time box, the river guide watches the clock or runs a timer. If we need more time, we agree that we need x more time to chat and we might not finish our list.
 
