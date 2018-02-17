@@ -90,5 +90,3 @@ More importantly, you need to test each possible scenario. If you're writing an 
 Almost any testing suite can do API calls. In Javascript, I've been liking Jest quiet a lot. There are also things like RSpec with Ruby (You don't need Rails).
 
 In a future post, I'll give you a demo of how this all works so you can see and poke at living examples.
-
-Is Adam off the rails or do you agree with this article? I post these things to Reddit and Hacker News, so if you have something to say please say it over there. I'd love to hear from you.
