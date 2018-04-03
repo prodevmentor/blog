@@ -5,7 +5,7 @@ date: 2018-04-02
 categories: nodejs expressjs azure windows paas
 ---
 
-My new job has taken me to new interesting adventures. This job has introduced me to the fun of trying to get Node.JS and other open source tools to work with the latest versions of Windows. This has been a challenge that has been interesting.
+My new job has taken me to interesting new adventures. This job has introduced me to the fun of trying to get Node.JS and other open source tools to work with the latest versions of Windows.
 
 # The pain of Node Gyp
 
@@ -19,7 +19,7 @@ There are few options:
 
 To solve this problem we started by just copying up the node modules, then tested. This resolved the issue of the node gyp not installing, however; the upload took about 20 hours.
 
-You can read more about this approach in the article: "[Installing native nodejs modules on Azure App Services during Git Deployment](https://ourwayoflyf.com/installing-native-nodejs-moduleson-azure-app-services-during-git-deployment/)". That helped us out a lot to get over the node gyp hurtle.
+You can read more about this approach in the article: [Installing native nodejs modules on Azure App Services during Git Deployment](https://ourwayoflyf.com/installing-native-nodejs-moduleson-azure-app-services-during-git-deployment/). That helped us out a lot to get over the node gyp hurtle.
 
 # The joy of Express JS
 
@@ -65,11 +65,9 @@ Once you move the files, update the web.conf file and update the www paths you s
 
 # Conclusion
 
-This short blog post is the summary of many days of debugging and exploring a bunch of different ideas. While I'm not familiar with Azure with Windows there are a few common points that could speed things up next time:
+This short blog post is the summary of many days of debugging and exploring a bunch of different ideas. While I'm not familiar with Azure running Windows there are a few common points that could speed things up next time:
 
 1. Ensure that the Windows path has all the right contexts
 2. Do not use Native Addons within Azure PaaS (sounds like it will never be supported)
 3. Restart the server often
-4. Assume at first its a config / environment issue that can be easily fixed, do not panic thinking it's the code base, especially if migrating from Linux
-
-
+4. Assume at first the problem is a config / environment issue that can be easily fixed, do not panic thinking it's the code base, especially if migrating from Linux
