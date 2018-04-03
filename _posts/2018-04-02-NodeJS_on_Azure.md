@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "Deploying a Node.JS application to Azure"
-date: 2018-03-30
+date: 2018-04-02
 categories: nodejs expressjs azure windows paas
 ---
 
-My new job has taken me to new interesting adventures. This job has introduced me to the fun and pain of trying to get Node.JS and other open source tools to work with the latest versions of Windows. This has been a challenge that has been quite interesting.
+My new job has taken me to new interesting adventures. This job has introduced me to the fun of trying to get Node.JS and other open source tools to work with the latest versions of Windows. This has been a challenge that has been interesting.
 
 # The pain of Node Gyp
 
-There's a module, "node-gyp", it's a node module for using Python to conduct various tasks that are easier to do in python. You probably don't directly use it, rather a dependency you use does. Well, my friend you just got long day ahead of you while trying to deploy this to an Azure PaaS.
+There's a module, "node-gyp", it's a node module for using Python to conduct various tasks that are easier to do in python. You probably don't directly use it, rather a dependency of a dependency of a dependency you must have for your application critically relies on it. Well, my friend you just got long day ahead of you while trying to deploy this to an Azure PaaS.
 
 There are few options:
 
@@ -17,19 +17,19 @@ There are few options:
 2. Push the code as normal, but deploy through a CI/CD server.
 3. Copy the node_modules up to the PaaS and hope nothing ever changes.
 
-To solve this problem we started by just copying up the node modules, then testing. It got through the burden of the node gyp issue. The upload took about 20 hours however...
+To solve this problem we started by just copying up the node modules, then tested. This resolved the issue of the node gyp not installing, however; the upload took about 20 hours.
 
 You can read more about this approach in the article: "[Installing native nodejs modules on Azure App Services during Git Deployment](https://ourwayoflyf.com/installing-native-nodejs-moduleson-azure-app-services-during-git-deployment/)". That helped us out a lot to get over the node gyp hurtle.
 
-# The pain of Express JS
+# The joy of Express JS
 
-In a typical Express JS project there is a folder called 'bin' in the project root directory. Inside this folder is a file called 'www'. This is not so nice, because the exicution environment of Azure runs the www file in the bin folder from the bin folder. Whereas when you run locally on the command line, you're typically running either `node app.js` or `npm start`.
+In a typical Express JS project there is a folder called 'bin' in the project root directory. Inside this folder is a file called 'www'. This is not so nice, because the execution environment of Azure runs the www file in the bin folder from the bin folder. Whereas when you run locally on the command line, you're typically running either `node app.js` or `npm start` from the project root.
 
 That is a big change because it changes the current path of the project which means that it will look for things that the 'app.js' file is calling within the bin directory not the project or 'wwwroot' directory.
 
 To get around this issue you have to update the package.json so the 'start' script points to either 'node ./app.js' or 'node ./www'. We opted to have it target app.js since we already where doing a lot of other things within that.
 
-The issue we were getting that this resolved was two fold:
+These were the two issues we resolved:
 
 1. We resolved the fatal error that we couldn't find views:
   > Failed to lookup view \"index\" in views directory \"D:\\home\\site\\wwwroot\\bin\\views\"
@@ -65,9 +65,11 @@ Once you move the files, update the web.conf file and update the www paths you s
 
 # Conclusion
 
-This short blog post is the summary of 3 days of debugging and exploring a bunch of different ideas. While I'm not familiar with Azure with Windows there are a few common points that could speed things up next time:
+This short blog post is the summary of many days of debugging and exploring a bunch of different ideas. While I'm not familiar with Azure with Windows there are a few common points that could speed things up next time:
 
 1. Ensure that the Windows path has all the right contexts
 2. Do not use Native Addons within Azure PaaS (sounds like it will never be supported)
 3. Restart the server often
 4. Assume at first its a config / environment issue that can be easily fixed, do not panic thinking it's the code base, especially if migrating from Linux
+
+
