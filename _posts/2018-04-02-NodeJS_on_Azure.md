@@ -37,11 +37,15 @@ These were the two issues we resolved:
 
 If you decide to move the www file into the project root, please change the in side the www file from:
 
-> require('../app.js')
+```javascript
+require('../app.js')
+```
 
 To:
 
-> require('./app.js')
+```javascript
+require('./app.js')
+```
 
 This will refer to the app.js in the current directory instead of the parent which is where the app is now that you're calling it from the project root.
 
@@ -50,17 +54,24 @@ This will refer to the app.js in the current directory instead of the parent whi
 This is the magic of the Azure service. This is the config the Azure uses to load the application into the PaaS.
 
 Change this:
->    &lt;add name="iisnode" path="bin/www" verb="*" modules="iisnode"/>
+```xml
+<add name="iisnode" path="bin/www" verb="*" modules="iisnode"/>
+```
 
 To this:
->    &lt;add name="iisnode" path="www" verb="*" modules="iisnode"/>
+```xml
+<add name="iisnode" path="www" verb="*" modules="iisnode"/>
+```
 
 Change this:
->    &lt;action type="Rewrite" url="bin/www"/>
+```xml
+<action type="Rewrite" url="bin/www"/>
+```
 
 To this:
->    &lt;action type="Rewrite" url="www"/>
-
+```xml
+<action type="Rewrite" url="www"/>
+```
 Once you move the files, update the web.conf file and update the www paths you should commit and push these changes. Once that's done you should have both local and remote application start working correctly.
 
 # Conclusion
