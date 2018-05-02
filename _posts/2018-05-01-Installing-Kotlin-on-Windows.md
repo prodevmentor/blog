@@ -26,7 +26,7 @@ If you follow the install process, I've been able to use this with the Powershel
 
 # Configure the environment
 
-You're going to need to set a system environment variable called 'JAVA_HOME'. Oracle has a doc for this: https://www.java.com/en/download/help/path.xml
+You're going to need to set a system environment variable called 'JAVA_HOME'. Oracle has a doc for this: (https://www.java.com/en/download/help/path.xml)[https://www.java.com/en/download/help/path.xml]
 
 Basically go to:
 1. Control Panel ->
@@ -69,3 +69,5 @@ Could not determine java version from '10.0.1'.
 ```
 
 The fix is to modify the file: 'gradle/wrapper/gradle-wrapper.properties', ensure the line `distributionUrl` has the correct URL for the version of gradle you're using. For our project it was 4.7 with 'https\://services.gradle.org/distributions/gradle-4.7-bin.zip'.
+
+Hopefully this guide will help you get your Kotlin project running on Windows. On my machine, it took me about 3 days to figure out, with little helpful step, by step, guide to get Kotlin & Spring Boot running.
