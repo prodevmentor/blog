@@ -26,7 +26,7 @@ If you follow the install process, I've been able to use this with the Powershel
 
 # Configure the environment
 
-You're going to need to set a system environment variable called 'JAVA_HOME'. Oracle has a doc for this: (https://www.java.com/en/download/help/path.xml)[https://www.java.com/en/download/help/path.xml]
+You're going to need to set a system environment variable called 'JAVA_HOME'. Oracle has a doc for this: https://www.java.com/en/download/help/path.xml
 
 Basically go to:
 1. Control Panel ->
