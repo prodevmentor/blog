@@ -5,7 +5,7 @@ date: 2018-05-02
 categories: wfh dream work
 ---
 
-Its long been my dream to be my own boss, set my own schedule and travel the world. I often dreamed of the idea of being able to work from home, make money and set myself free from the open workspace or cube farms of the office world.
+It has long been my dream to be my own boss, set my own schedule and travel the world. I often dreamed of the idea of being able to work from home, make money and set myself free from the open workspace or cube farms of the office world.
 
 What I didn't realize when I was younger was that being your own boss means you have to do boring crap like file taxes, create marketing plans, sell your services to clients and work far to many hours. I like to relax, I like to have fun. I like doing my 40 or 45 then relaxing.
 
